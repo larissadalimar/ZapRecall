@@ -1,9 +1,10 @@
 import styled from "styled-components"
+import logo from '../assets/img/logo.png'
 
 export default function Logo(){
     return(
         <LogoContainer>
-            <img src="../src/assets/img/logo.png"/>
+            <img src={logo}/>
             <h1>ZapRecall</h1>
         </LogoContainer>
     )
